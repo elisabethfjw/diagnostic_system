@@ -118,6 +118,7 @@ Interpretability is the ability to understand and explain the decisions or predi
 - Interpretability: Based on Bayes’ theorem, the model calculates probabilities and makes predictions based on the likelihood of observing feature values given the class labels.
 Model issues that features are conditionally independent
 
+**Summary**
 - Rule-based classifier has the highest interpretability due to its simplistic model but the lowest classification performance. 
 - Random Forest classifier has the lowest interpretability due to the large number of decision trees which make it difficult to identify the most influential features and has a relatively high classification performance. 
 - Complement Naive Bayes classifier is interpretable and has the highest classification performance. 
