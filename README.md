@@ -7,7 +7,7 @@ The three different features for each variable, with suffixes "_0", "_1", "_2" r
 ## Rule_based classifier
 A rule-based classifier was implemented using an if-then rule based system. For each metric, we compared the mean metric of each person to the global mean (stored in threshold variables). 
 
-### Methodology
+### Algorithm
 According to Eickhoff, we implemented these rules:
 1. abnormal_size = data['radius_0'] > threshold_size
     - Cells with a higher than average mean distance (thus are significantly larger) are classified as malignant
@@ -118,7 +118,6 @@ Interpretability is the ability to understand and explain the decisions or predi
 - Interpretability: Based on Bayes’ theorem, the model calculates probabilities and makes predictions based on the likelihood of observing feature values given the class labels.
 Model issues that features are conditionally independent
 
-## Conclusion
 - Rule-based classifier has the highest interpretability due to its simplistic model but the lowest classification performance. 
 - Random Forest classifier has the lowest interpretability due to the large number of decision trees which make it difficult to identify the most influential features and has a relatively high classification performance. 
 - Complement Naive Bayes classifier is interpretable and has the highest classification performance. 
